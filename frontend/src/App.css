@@ -1,38 +1,77 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://media1.tenor.com/m/wIa91mot0tAAAAAd/pixel-city-chill.gif");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  height: 100%;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(215, 14, 14);
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a slight dark overlay for readability */
+  padding: 20px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+
+h1 {
+  color: rgb(0, 251, 255); /* Set the main title color to hot pink */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  color: #ff0000; /* Set the login title color to green */
+}
+
+form {
+  background: rgba(255, 0, 255, 0);
+  padding: 100px;
+  max-width: 450px;
+  margin: 0px auto;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(0, 255, 255);
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px 8px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(173, 2, 252); /* Border color set to hot pink */
+  border-radius: 0px;
+  align-items: center;
+}
+
+button {
+  background-color: #ae00ff; /* Button background color set to green */
+  color: #000000;
+  padding: 10px 215px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+}
+
+button:hover {
+  background-color: hotpink; /* Button background color on hover set to hot pink */
 }
